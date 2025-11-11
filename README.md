@@ -1,4 +1,4 @@
-# Classifcador de Galaxias
+# Clasifcador de Galaxias
 
 El trabajo es desarollado en el marco de una actividad de Extensión-Educación por parte de la Iniciativa de Datos e Inteligencia Artifical (IDIA) de la Universidad de Chile en conjunto con el Junior Achivement Chile para estudiantes de Media vocacional.
 
