@@ -1,13 +1,15 @@
 # Clasificador de Galaxias
 
-El trabajo es desarollado en el marco de una actividad de Extensión-Educación por parte de la Iniciativa de Datos e Inteligencia Artifical (IDIA) de la Universidad de Chile en conjunto con el Junior Achivement Chile para estudiantes de Media vocacional.
+El trabajo es desarollado en el marco de una actividad de Extensión-Educación por parte de la [Iniciativa de Datos e Inteligencia Artifical (IDIA)](https://idia.uchile.cl/) de la Universidad de Chile en conjunto con el Junior Achivement Chile para estudiantes de Media vocacional.
 
 
 ## Introducción
 Edwin Hubble (XXXXX) desarrollo un esquema de clasificacipon de galaxias basado en su morfología (Referencia). En grandes rasgos se pueden classificar en Galaxías Elipticas (E), Galaxias Espirales (S) y Galaxias Irregulares (Irr), como se puede ver en la figura XXX [^1]. Con el objetivo más general de poder desarrollar un classificador más preciso la Universidad YYYYY desarollo un proyecto de ciencia ciuddadana conocido como Galaxy Zoo (Referencia) en el cual miles de voluntarios han venido clasificando imagenes de galaxias obtenidas por el Sloan Digital Sky Survey (SDSS) segun su morfología. De manera que podemos valernos de este dataset oara entrenar modelos de Deep Learning para la clasificación automática de galaxias.
 
 ## Objetivos 
-- Entrenar un modelo sencillo de Deep Learning para la clasificación de imagenes de Galaxías en sus diferentes morfologias generales segun la clasificación de Hubble.
+- Aprender a usar diferentes herramientas de Aprendizaje de Maquina para afrontar problemas en el ambito de la Astronomía. 
+- Desarrollar un clasificador de imagenes de galaxías usando un modelo sencillo de Arbol de Decisión (Decision Tree).
+- Entrenar un modelo sencillo de Deep Learning para la regresión de imágenes de galaxias usando una Red Neuronal Convolucional (CNN), usando la arquitecture TinyVGG ([Simonyan & Zisserman, 2015](https://ui.adsabs.harvard.edu/abs/2014arXiv1409.1556S/abstract)).
 
 ## Metodología
 Usando el dataset de Galaxy Zoo entreremos un modelo de classificación de imanges basado en una red neuronal convolucional (CNN). El dataset cuenta con imágenes de galaxias clasificadas en las tres categorías principales: Elípticas, Espirales e Irregulares. Usaremos técnicas de preprocesamiento de imágenes, como el escalado y la normalización, para preparar los datos para el entrenamiento del modelo. Luego, construiremos una CNN utilizando una biblioteca de deep learning como PyTorch. El modelo será entrenado y evaluado utilizando métricas como la precisión, la recuperación y la F1-score para asegurar un rendimiento adecuado. Para obtener los datos utlizaremos la plataforma Kaggle, donde se encuentra disponible el dataset de Galaxy Zoo.
