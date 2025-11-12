@@ -34,7 +34,7 @@ Una vez entrenado el modelo, se evaluará su rendimiento utilizando un conjunto 
 - Simonyan, K., & Zisserman, A. (2015). Very deep convolutional networks for large-scale image recognition. arXiv. https://arxiv.org/abs/1409.1556
 
 ## Autor
-Steve Jurado [@jurados](https://github.com/jurados)
+([@jurados](https://github.com/jurados)) Steve Jurado 
 
 - Email: sjurado@das.uchile.cl
 
