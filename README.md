@@ -35,7 +35,8 @@ Una vez entrenado el modelo, se evaluará su rendimiento utilizando un conjunto 
 
 ## Autor
 Steve Jurado [@jurados](https://github.com/jurados)
-sjurado@das.uchile.cl
+
+- Email: sjurado@das.uchile.cl
 
 Fecha: 11/2025
 
