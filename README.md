@@ -4,7 +4,7 @@ El trabajo es desarollado en el marco de una actividad de Extensión-Educación 
 
 
 ## Introducción
-Edwin Hubble (XXXXX) desarrollo un esquema de clasificacipon de galaxias basado en su morfología (Referencia). En grandes rasgos se pueden classificar en Galaxías Elipticas (E), Galaxias Espirales (S) y Galaxias Irregulares (Irr), como se puede ver en la figura XXX [^1]. Con el objetivo más general de poder desarrollar un classificador más preciso la Universidad YYYYY desarollo un proyecto de ciencia ciuddadana conocido como Galaxy Zoo (Referencia) en el cual miles de voluntarios han venido clasificando imagenes de galaxias obtenidas por el Sloan Digital Sky Survey (SDSS) segun su morfología. De manera que podemos valernos de este dataset oara entrenar modelos de Deep Learning para la clasificación automática de galaxias.
+[Edwin Hubble (1936)](https://ui.adsabs.harvard.edu/abs/1936rene.book.....H/abstract) desarrollo un esquema de clasificacipon de galaxias basado en su morfología. En grandes rasgos se pueden classificar en Galaxías Elipticas (E), Galaxias Espirales (S) y Galaxias Irregulares (Irr), como se puede ver en la figura XXX [^1]. Con el objetivo más general de poder desarrollar un classificador más preciso surgió un proyecto de ciencia ciuddadana conocido como [Galaxy Zoo](https://www.zooniverse.org/projects/zookeeper/galaxy-zoo) ([Willett et al., 2013](https://ui.adsabs.harvard.edu/abs/2013MNRAS.435.2835W/abstract)) en el cual miles de voluntarios han venido clasificando imagenes de galaxias obtenidas por el Sloan Digital Sky Survey (SDSS) segun su morfología. De manera que podemos valernos de este dataset oara entrenar modelos de Deep Learning para la clasificación automática de galaxias.
 
 ## Objetivos 
 - Aprender a usar diferentes herramientas de Aprendizaje de Maquina para afrontar problemas en el ambito de la Astronomía. 
@@ -31,9 +31,13 @@ Una vez entrenado el modelo, se evaluará su rendimiento utilizando un conjunto 
 
 ## Referencias
 
-- Sreejith, S., Pereverzyev, S., Jr., Kelvin, L. S., Marleau, F. R., Haltmeier, M., Ebner, J., Bland-Hawthorn, J., Driver, S. P., Graham, A. W., Holwerda, B. W., Hopkins, A. M., Liske, J., Loveday, J., Moffett, A. J., Pimbblet, K. A., Taylor, E. N., Wang, L., & Wright, A. H. (2018). Galaxy And Mass Assembly: Automatic morphological classification of galaxies using statistical learning. Monthly Notices of the Royal Astronomical Society, 474(4), 5232–5258. https://doi.org/10.1093/mnras/stx2976
+- Hubble, E. P. (1936). The Realm of the Nebulae. Yale University Press.
 
 - Simonyan, K., & Zisserman, A. (2015). Very deep convolutional networks for large-scale image recognition. arXiv. https://arxiv.org/abs/1409.1556
+
+- Sreejith, S., Pereverzyev, S., Jr., Kelvin, L. S., Marleau, F. R., Haltmeier, M., Ebner, J., Bland-Hawthorn, J., Driver, S. P., Graham, A. W., Holwerda, B. W., Hopkins, A. M., Liske, J., Loveday, J., Moffett, A. J., Pimbblet, K. A., Taylor, E. N., Wang, L., & Wright, A. H. (2018). Galaxy And Mass Assembly: Automatic morphological classification of galaxies using statistical learning. Monthly Notices of the Royal Astronomical Society, 474(4), 5232–5258. https://doi.org/10.1093/mnras/stx2976
+
+- Willett, K. W., Lintott, C. J., Bamford, S. P., Masters, K. L., Simmons, B. D., Casteels, K. R. V., Edmondson, E. M., Fortson, L. F., Kaviraj, S., Keel, W. C., Melvin, T., Nichol, R. C., Raddick, M. J., Schawinski, K., Simpson, R. J., Skibba, R. A., Smith, A. M., & Thomas, D. (2013). Galaxy Zoo 2: Detailed morphological classifications for 304 122 galaxies from the Sloan Digital Sky Survey. Monthly Notices of the Royal Astronomical Society, 435(4), 2835–2860. https://doi.org/10.1093/mnras/stt1458
 
 ## Autor
 ([@jurados](https://github.com/jurados)) Steve Jurado 
