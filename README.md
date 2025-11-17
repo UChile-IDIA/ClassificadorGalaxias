@@ -4,7 +4,13 @@ El trabajo es desarollado en el marco de una actividad de Extensión-Educación 
 
 
 ## Introducción
-[Edwin Hubble (1936)](https://ui.adsabs.harvard.edu/abs/1936rene.book.....H/abstract) desarrollo un esquema de clasificacipon de galaxias basado en su morfología. En grandes rasgos se pueden classificar en Galaxías Elipticas (E), Galaxias Espirales (S) y Galaxias Irregulares (Irr), como se puede ver en la figura XXX [^1]. Con el objetivo más general de poder desarrollar un classificador más preciso surgió un proyecto de ciencia ciuddadana conocido como [Galaxy Zoo](https://www.zooniverse.org/projects/zookeeper/galaxy-zoo) ([Willett et al., 2013](https://ui.adsabs.harvard.edu/abs/2013MNRAS.435.2835W/abstract)) en el cual miles de voluntarios han venido clasificando imagenes de galaxias obtenidas por el Sloan Digital Sky Survey (SDSS) segun su morfología. De manera que podemos valernos de este dataset oara entrenar modelos de Deep Learning para la clasificación automática de galaxias.
+[Edwin Hubble (1936)](https://ui.adsabs.harvard.edu/abs/1936rene.book.....H/abstract) desarrollo un esquema de clasificacipon de galaxias basado en su morfología. En grandes rasgos se pueden classificar en Galaxías Elipticas (E), Galaxias Espirales (S) y Galaxias Irregulares (Irr), como se puede ver en la figura
+
+<center>
+    <img src='https://www.syfy.com/sites/syfy/files/styles/scale_600/public/hubble_tuningfork.jpg' style='height: 300px;'>
+</center>
+
+[^1]. Con el objetivo más general de poder desarrollar un classificador más preciso surgió un proyecto de ciencia ciuddadana conocido como [Galaxy Zoo](https://www.zooniverse.org/projects/zookeeper/galaxy-zoo) ([Willett et al., 2013](https://ui.adsabs.harvard.edu/abs/2013MNRAS.435.2835W/abstract)) en el cual miles de voluntarios han venido clasificando imagenes de galaxias obtenidas por el Sloan Digital Sky Survey (SDSS) segun su morfología. De manera que podemos valernos de este dataset oara entrenar modelos de Deep Learning para la clasificación automática de galaxias.
 
 ## Objetivos 
 - Aprender a usar diferentes herramientas de Aprendizaje de Maquina para afrontar problemas en el ambito de la Astronomía. 
