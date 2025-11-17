@@ -12,11 +12,16 @@ El trabajo es desarollado en el marco de una actividad de Extensión-Educación 
 - Entrenar un modelo sencillo de Deep Learning para la regresión de imágenes de galaxias usando una Red Neuronal Convolucional (CNN), usando la arquitecture TinyVGG ([Simonyan & Zisserman, 2015](https://ui.adsabs.harvard.edu/abs/2014arXiv1409.1556S/abstract)).
 
 ## Metodología
-Usando el dataset de Galaxy Zoo entreremos un modelo de classificación de imanges basado en una red neuronal convolucional (CNN). El dataset cuenta con imágenes de galaxias clasificadas en las tres categorías principales: Elípticas, Espirales e Irregulares. Usaremos técnicas de preprocesamiento de imágenes, como el escalado y la normalización, para preparar los datos para el entrenamiento del modelo. Luego, construiremos una CNN utilizando una biblioteca de deep learning como PyTorch. El modelo será entrenado y evaluado utilizando métricas como la precisión, la recuperación y la F1-score para asegurar un rendimiento adecuado. Para obtener los datos utlizaremos la plataforma Kaggle, donde se encuentra disponible el dataset de Galaxy Zoo.
 
-Una imagen ilustrativa del classificador se muestra en la figura XXX.
+Para el problema de clasificación de galaxias usaremos un modelo de Arbol de Decisión (Decision Tree). Este modelo es sencillo de interpretar y permite a los estudiantes entender cómo se toman las decisiones en función de las características extraídas de las imágenes. Usaremos características simples como la forma, el brillo y la textura de las galaxias para entrenar el modelo. El dataset será dividido en conjuntos de entrenamiento y prueba para evaluar el rendimiento del clasificador utilizando la matriz de confusión y la métrica de precisión.
 
-La loss function a utilizar será Cross Entropy Loss, adecuada para problemas de clasificación multiclase. El optimizador seleccionado será Adam, conocido por su eficiencia y capacidad para manejar grandes conjuntos de datos y parámetros.
+Por otro lado para el problema de regresión de imágenes de galaxias, usamos un subset del dataset de Galaxy Zoo. En este caso entreremos un modelo de classificación de imanges basado en una red neuronal convolucional (CNN), basado en la arquitectura TinyVGG. Este modelo fue desarrollado por la Universidad de Oxford en 2015 para el tratamiento de imagenes ([Simonyan & Zisserman, 2015](https://ui.adsabs.harvard.edu/abs/2014arXiv1409.1556S/abstract)).
+
+<center>
+    <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqOvIOZUGpHZ7B8pH0JJhMPRBKuCbVgFBkOA&s' style='height: 200px;'>
+</center>
+
+La loss function a utilizar será Mean Squared Error (MSE), adecuada para problemas de regresión. El optimizador seleccionado será Adam, conocido por su eficiencia y capacidad para manejar grandes conjuntos de datos y parámetros.
 
 Cómo la idea es que los estudiantes puedan entender y modificar el código, se utilizará una arquitectura CNN sencilla con pocas capas convolucionales y de pooling, seguida de capas completamente conectadas. Esto permitirá a los estudiantes observar cómo cada componente contribuye al rendimiento del modelo sin abrumarlos con complejidades innecesarias. Se usará un notebook de Jupyter para facilitar la interacción y visualización de resultados durante el proceso de desarrollo y entrenamiento del modelo.
 
@@ -24,10 +29,22 @@ Cómo la idea es que los estudiantes puedan entender y modificar el código, se 
 
 ## Resultados
 
-Una imagen representativa de cada una de las clases de galaxias a clasificar se muestra en la figura XXX.
+El arbol de decisión entrenado para la clasificación de galaxias se muestra en la siguiente figura
 
-Una vez entrenado el modelo, se evaluará su rendimiento utilizando un conjunto de datos de prueba separado. Se calcularán métricas como la precisión, la recuperación y la F1-score para cada clase de galaxia (Elípticas, Espirales e Irregulares). Además, se generará una matriz de confusión para visualizar el desempeño del modelo en la clasificación de las diferentes morfologías galácticas. Los resultados obtenidos serán comparados con estudios previos para validar la efectividad del modelo desarrollado.
+![Árbol de Decisión](results/decision_tree.png)
 
+La matriz de confusión obtenida tras evaluar el modelo
+
+<center>
+<img src="results/confusion_matrix.png" alt="Matriz de Confusión" width="400"/>
+</center>
+
+Para el problema de regresion de imágenes de galaxias, para obtener las carectersticas más relevantes de cada imagen obtenida del subset de datos de Galaxy Zoo, se obtuvieron las siguientes curvas de pérdida durante el entrenamiento y validación del modelo:
+
+<center>
+<img src="results/loss_curve.png" alt="Curva de Pérdida"
+    width="400"/>
+</center>
 
 ## Referencias
 
